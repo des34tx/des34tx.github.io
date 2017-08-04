@@ -1,0 +1,29 @@
+<doctype html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title> Тестовая страница - CSS-Master </title>
+     </head>
+    
+        <body>
+            <br>
+            <hr>
+           
+            <p>   
+             <label for="ran">Ваш рост (см): </label>
+             <input oninput="out54.value=(ran.value); out56.value=(ran.value*10)"
+                    id="ran" type="range" min="5" max="270" step="2" value="65">  
+            <!-- -->
+             <br> <br>
+                <label><b>Ваш рост в сантиметрах:</b></label>
+                <output id="out54">108</output>
+                
+             <br> <br>
+                
+                <label><b>Ваш рост в миллиметрах:</b></label>
+                <output id="out56">100</output>
+            </p>
+   
+        </body>
+    
+    </html>
