@@ -1,0 +1,44 @@
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="tes6555555t1.com" resolutions="1x" timestamp="1502476037496">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="master_______-a.css" crc="81800083" ref="без-имени-3:без-имени-2:index"/>
+    <file name="___-_____-3.css" crc="3994749021" ref="без-имени-3"/>
+    <file name="___-_____-2.css" crc="4013161648" ref="без-имени-2"/>
+    <file name="index.css" crc="4183639988" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:без-имени-2:без-имени-3"/>
+    <file name="museutils.js" crc="4232573551" ref="index:без-имени-2:без-имени-3"/>
+    <file name="whatinput.js" crc="86476730" ref="index:без-имени-2:без-имени-3"/>
+    <file name="museconfig.js" crc="3849126041" ref="index:без-имени-2:без-имени-3"/>
+    <file name="jquery.musemenu.js" crc="38860304" ref="index:без-имени-2:без-имени-3"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index:без-имени-2:без-имени-3"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:без-имени-2:без-имени-3"/>
+    <file name="require.js" crc="4234670167" ref="index:без-имени-2:без-имени-3"/>
+    <file name="webpro.js" crc="3770351119" ref="без-имени-2"/>
+    <file name="form_check.php" crc="3841221102" ref="без-имени-2"/>
+    <file name="form_throttle.php" crc="4048049783" ref="без-имени-2"/>
+    <file name="form_process.php" crc="3899230280" ref="без-имени-2"/>
+    <file name="form-u749.php" crc="4269055019" ref="без-имени-2"/>
+  </folder>
+  <folder name="images">
+    <file name="cimg6786_dap_realism.jpg" crc="356363525" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="cimg4226.jpg" crc="189419142" seo="true" ref="без-имени-3">
+      <caption webpage="без-имени-3" alt=""/>
+    </file>
+    <file name="cimg4423.jpg" crc="4101165566" seo="true" ref="без-имени-3">
+      <caption webpage="без-имени-3" alt=""/>
+    </file>
+    <file name="cimg2810.jpg" crc="4230963793" seo="true" ref="без-имени-3">
+      <caption webpage="без-имени-3" alt=""/>
+    </file>
+    <file name="cimg2829.jpg" crc="4072561928" seo="true" ref="без-имени-3">
+      <caption webpage="без-имени-3" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="132750638" seo="true" mt="1502474940381" redirect="true"/>
+  <file name="без-имени-2.html" crc="3867101615" seo="true" mt="1502475898893" redirect="true"/>
+  <file name="без-имени-3.html" crc="284404669" seo="true" mt="1502475094208" redirect="true"/>
+</manifest>
