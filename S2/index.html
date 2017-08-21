@@ -22,7 +22,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
   <![endif]-->
-<style>
+<!-- ========== Add css style for preload css for fix bag ============ -->
+ <style>
  <body id="transition_disabled">
 #transition_disabled
 {
@@ -32,7 +33,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   -o-transition: none !important;
 }
  </style>
-  <!-- Дбовляем скрипт отмены -->
+  <!-- =========  Add script stop transition disable ============ -->
  <script type="text/javascript">
   $("window").load(function() {
   $("body").removeAttr("id");
