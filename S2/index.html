@@ -22,6 +22,22 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
   <![endif]-->
+<style>
+ <body id="transition_disabled">
+#transition_disabled
+{
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+ </style>
+  <!-- Дбовляем скрипт отмены -->
+ <script type="text/javascript">
+  $("window").load(function() {
+  $("body").removeAttr("id");
+});
+ </script>
    </head>
  <body>
 
