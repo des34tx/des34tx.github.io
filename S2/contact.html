@@ -32,7 +32,14 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   -ms-transition: none !important;
   -o-transition: none !important;
 }
+  
  </style>
+  <!-- =========  Add script stop transition disable ============ -->
+<script type="text/javascript">
+  $("window").load(function() {
+  $("body").removeAttr("id");
+});
+ </script>
   
    </head>
  <body>
@@ -113,11 +120,6 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 </script>
   <!-- RequireJS script -->
   <script src="scripts/require.js?crc=4234670167" type="text/javascript" async data-main="scripts/museconfig.js?crc=3849126041" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
-  <!-- =========  Add script stop transition disable ============ -->
-<script type="text/javascript">
-  $("window").load(function() {
-  $("body").removeAttr("id");
-});
- </script>
+ 
  </body>
 </html>
